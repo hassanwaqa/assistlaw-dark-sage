@@ -54,7 +54,7 @@ const ConsultationSection = () => {
     setResponse("");
     
     try {
-      const response = await fetch("http://localhost:5678/webhook-test/eaf90fdf-4557-403d-8834-8891f0c55343", {
+      const response = await fetch("http://localhost:5678/webhook/eaf90fdf-4557-403d-8834-8891f0c55343", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
